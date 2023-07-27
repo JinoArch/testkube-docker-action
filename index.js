@@ -9,7 +9,7 @@ async function run() {
     // const kubectlVersion = core.getInput('kubectl-version') || 'v1.27.4';
 
     // Install Testkube
-    await executeCommand(`curl -LO https://github.com/testkube/testkube/releases/download/v${testkubeVersion}/testkube_${testkubeVersion}_Linux_x86_64.tar.gz`);
+    await executeCommand(`curl -LO https://github.com/kubeshop/testkube/releases/download/v${testkubeVersion}/testkube_${testkubeVersion}_Linux_x86_64.tar.gz`);
     await executeCommand(`tar -xvf testkube_${testkubeVersion}_Linux_x86_64.tar.gz`);
     await executeCommand(`mv testkube /usr/local/bin/`);
 
