@@ -30,6 +30,14 @@ inputs:
     description: 'Standard input'
     required: false
     default: ''
+  install-kubectl:
+    description: 'Command'
+    required: false
+    default: false
+  testkube-version:
+    description: 'Command'
+    required: true
+    default: 'v1.11.19'
 outputs:
   result:
     description: 'The result of the command'
@@ -44,3 +52,6 @@ runs:
     - ${{ inputs.api-uri }}
     - ${{ inputs.parameters }}
     - ${{ inputs.stdin }}
+    - ${{ inputs.install-kubectl }}
+    - ${{ inputs.testkube-version }}
+    
