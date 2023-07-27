@@ -30,13 +30,13 @@ inputs:
     description: 'Standard input'
     required: false
     default: ''
-  install-kubectl:
-    description: 'Command'
+  kubectl-version:
+    description: 'Install Kubectl'
     required: false
-    default: false
+    default: 'v1.27.4'
   testkube-version:
-    description: 'Command'
-    required: true
+    description: 'Install Testkube'
+    required: false
     default: '1.11.19'
 outputs:
   result:
