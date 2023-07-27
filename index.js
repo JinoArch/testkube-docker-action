@@ -11,7 +11,7 @@ async function run() {
     // Install Testkube
     await executeCommand(`curl -LO https://github.com/kubeshop/testkube/releases/download/v${testkubeVersion}/testkube_${testkubeVersion}_Linux_x86_64.tar.gz`);
     await executeCommand(`tar -xvf testkube_${testkubeVersion}_Linux_x86_64.tar.gz`);
-    await executeCommand(`mv testkube /usr/local/bin/`);
+    await executeCommand(`mv kubectl-testkube /usr/local/bin/`);
 
     core.info('Testkube installation completed successfully!');
   } catch (error) {
