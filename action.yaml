@@ -1,6 +1,6 @@
 # action.yml
 name: 'Testkube CLI'
-description: 'Execute Testkube command'
+description: 'Install Testkube and execute Testkube command'
 inputs:
   command:
     description: 'Command'
