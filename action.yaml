@@ -4,7 +4,7 @@ description: 'Execute Testkube command'
 inputs:
   command:
     description: 'Command'
-    required: true
+    required: false
     default: 'get'
   resource:
     description: 'Resource'
