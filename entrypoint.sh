@@ -43,7 +43,7 @@ if [[ ! -z "$testkube_version" ]]; then
   && mv ./kubectl-testkube /usr/local/bin
   echo "Installed Testkube CLI version: $testkube_version"
 else
-  echo "Testkube CLI installation skipped.."
+  echo "Testkube CLI installation Skipped.."
 fi
 
 status=$?
