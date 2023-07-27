@@ -1,0 +1,15 @@
+{
+  "name": "testkube-docker-action",
+  "version": "1.0.0",
+  "description": "This action executes Testkube command for resource with parameters and returns execution result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}

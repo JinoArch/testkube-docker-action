@@ -1,0 +1,14 @@
+name: docker-action-test
+
+run-name: jinos-test-docker-action
+
+on:
+  workflow_dispatch: {}
+  
+jobs:
+  testkube-kubectl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JinoArch/testkube-docker-action@main
+        with:
+          testkube-version: '1.11.19'
