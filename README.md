@@ -2,8 +2,8 @@
 
 ```
 - name: Install Testkube and kubectl
-    uses: your-username/testkube-kubectl-dynamic-action@main
-    with:
-      testkube-version: '1.11.19'
+  uses: JinoArch/testkube-docker-action@main
+  with:
+    testkube-version: '1.11.19'
 
 ```
